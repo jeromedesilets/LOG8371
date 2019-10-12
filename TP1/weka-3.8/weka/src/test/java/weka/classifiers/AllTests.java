@@ -38,8 +38,8 @@ public class AllTests
   public static Test suite() {
     TestSuite suite = new TestSuite();
 
-    suite.addTest(new TestSuite(weka.classifiers.CostMatrixTest.class));
-    suite.addTest(weka.classifiers.pmml.consumer.AllTests.suite());
+    //suite.addTest(new TestSuite(weka.classifiers.CostMatrixTest.class));
+    //suite.addTest(weka.classifiers.pmml.consumer.AllTests.suite());
     suite.addTest(suite("weka.classifiers.Classifier"));
     suite.addTest(suite("weka.classifiers.functions.supportVector.Kernel"));
 
