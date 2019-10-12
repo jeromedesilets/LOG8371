@@ -2,4 +2,6 @@ language: java
 
 before_script: 
 - cd TP1/weka-3.8/weka
-- jdk_switcher use oraclejdk8
+
+jdk:
+  - openjdk8
